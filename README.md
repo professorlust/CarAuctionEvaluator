@@ -1,2 +1,2 @@
-# ML-Car-Auction-Validator
+# CarAuctionEvaluator
 The goal of this project is to predict if a car purchased at an auction is a good or bad buy.
