@@ -3,8 +3,10 @@ The goal of this project is to build a predictive model to help auto dealers avo
 
 ## Preliminary Analysis
 - Bad Buy Percentage: 12.30%
-- Years range from 2001 to 2010. The median year was 2005 and the mean year was 2005.
+- Years range from 2001 to 2010. The median year was 2005 and the mean year was 2005. The most popular year is 2006.
 - Age ranges from 0 to 9 years old. The median age was 4 and the mean age was 4.
+- The most popular make is CHEVROLET.
+- The most popular color is SILVER.
 - Odometer readings range from 4825 to 115717 miles. The median reading was 73363 and the mean reading was 71502.
 
 ## Features
@@ -48,5 +50,10 @@ Field|Description
 *IsOnlineSale*|Identifies if the vehicle was originally purchased online
 *WarrantyCost*|Warranty price (term=36month  and millage=36K)
 
-## Dependencies
-- [Numpy](http://www.numpy.org)
+
+## Dependencies
+- [Pandas](http://pandas.pydata.org)
+- [scikit-learn](http://scikit-learn.org/stable/)
+- [matplotlib](http://matplotlib.org)
+- [prettytable](https://code.google.com/p/prettytable/)
+- [numpy](http://numpy.org)
