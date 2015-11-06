@@ -4,7 +4,7 @@ from prettytable import PrettyTable
 import operator
 from matplotlib import pyplot
 
-matrix = pd.read_csv('AuctionCarTrgData.csv')
+matrix = pd.read_csv('data/train.csv')
 bad_vehicles = matrix[(matrix.IsBadBuy == 1)]
 good_vehicles = matrix[(matrix.IsBadBuy == 0)]
 
